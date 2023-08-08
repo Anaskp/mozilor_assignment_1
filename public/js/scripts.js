@@ -18,8 +18,6 @@ jQuery(document).ready(function ($) {
                 $('#result').html('Submitting...');
             },
             success: function(response) {
-                // console.log(nonce)
-                // console.log(response)
                 if (response === 'success0') {
                     $('#result').html('Auth Successfull');
                     $('#login-form').hide();

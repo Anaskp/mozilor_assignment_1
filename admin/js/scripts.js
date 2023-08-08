@@ -50,20 +50,13 @@ jQuery(document).ready(function ($)
         });
     });
 
+    $("#UP_activate").click(function (e) { 
+        e.preventDefault();
+        console.log('hello');
+        
+    });
+
     
 });
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     const deleteButtons = document.querySelectorAll('.delete-user-btn');
-
-//     deleteButtons.forEach(function(button) {
-//         button.addEventListener('click', function(event) {
-//             // Find the parent <tr> element and get its row index
-//             const rowNumber = this.closest('tr').rowIndex;
-
-//             // You can now use the rowNumber in your further logic (e.g., delete the corresponding user)
-//             console.log('Clicked on delete button in row: ' + rowNumber);
-//         });
-//     });
-// });
 

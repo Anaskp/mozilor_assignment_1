@@ -20,8 +20,8 @@ defined('ABSPATH') OR die();
 </form><br><br>
 
 <div hidden id="button-div">
-    <button  id="add-more"><?php _e('Add more post','userpost') ?></button>
-    <a href="/wordpress"><button  id="red-home"><?php _e('Go to home page','userpost') ?></button></a>
+    <button type="submit" id="add-more"><?php _e('Add more post','userpost') ?></button>
+    <a href="/wordpress"><button type="submit" id="red-home"><?php _e('Go to home page','userpost') ?></button></a>
 </div>
 
 
